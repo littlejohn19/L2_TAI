@@ -1,3 +1,37 @@
 body {
     background-color: darkgrey;
 }
+
+.img {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: -0.625rem; // for us 0.625rem == 10px;
+    padding-left: 0.625rem;
+    padding-right: 2rem;
+
+}
+
+.napis{
+    font-size: 30px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: -0.625rem; // for us 0.625rem == 10px;
+    padding-left: 2rem;
+    padding-right: 0.625rem;
+}
+
+ul li {
+    display: inline;
+}
+
+.menutext{
+    font-size: 40px;
+}
+
+
+
+
