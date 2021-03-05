@@ -9,7 +9,53 @@
 </head>
 
 <body>
+<ul>
+    <li class="menutext"><a href="index.html"> Strona główna</a></li>
+    <li class="menutext">Kontakt</li>
+</ul>
 
+<div class="container">
+    <form action="action_page.php">
+
+        <h3>Uzupełnij dane</h3>
+        <label for="imie">Imię</label>
+        <input type="text" id="imie" name="firstname" placeholder="Podaj imię">
+
+        <label for="nazwisko">Nazwisko</label>
+        <input type="text" id="nazwisko" name="lastname" placeholder="Podaj Nazwisko">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="e-mail" placeholder="Podaj email">
+
+        <label for="sex">Płeć</label>
+        <div  id="sex">
+            <input type="checkbox" /> Mężczyzna
+            <input type="checkbox" /> Kobieta
+        </div>
+
+        <label for="subject">Opis</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <label for="wiek">Wiek</label>
+        <div>
+            <input type="number"  id="wiek">
+        </div>
+
+        <label for="stanCywilny">Stan cywilny</label>
+        <select id="stanCywilny" name="stanCywilny">
+            <option value="panna">Panna</option>
+            <option value="kawaler">Kawaler</option>
+        </select>
+
+
+        <div class="contactBtns">
+            <input type="submit" value="Wyczyść">
+            <input type="submit" value="Wyślij">
+        </div>
+
+
+    </form>
+</div>
 
 </body>
 </html>
