@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Krystian</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+<div class="container pt-5 mr-5 ">
+<form class="mr-5">
+<div class="mb-3 col-4">
+    <label for="inputName" class="form-label">Imię:</label>
+    <input type="text" class="form-control" id="inputName" placeholder="Podaj Imię">
+</div>
+<div class="mb-3 col-4">
+    <label for="inputSurname" class="form-label">Nazwisko:</label>
+    <input type="text" class="form-control" id="inputSurname" placeholder="Podaj Nazwisko">
+</div>
+<div class="mb-3 col-4">
+    <label for="inputEmail" class="form-label">E-mail:</label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="Podaj Email">
+</div>
+
+    <div class="mb-3">
+        <legend  class="form-label">Płeć</legend>
+        <input type="radio" class="form-check-input" name="gridRadios" value="option1" id="gridRadios1" checked>
+        <label class="form-check-label" for="gridRadios1">Mężczyzna</label>
+        <input type="radio" class="form-check-input" name="gridRadios" value="option1" id="gridRadios2">
+        <label class="form-check-label" for="gridRadios2">Kobieta</label>
+    </div>
+    <div class="row mb-3 col-4">
+        <label for="textArea" class="form-label">Opis</label>
+        <textarea class="mx-2" rows="4" cols="50" type="text" id="textArea"></textarea>
+    </div>
+
+    <div class="mb-3 col-4">
+        <label for="ageInput"  class="form-label">Wiek</label>
+        <input type="number" id="ageInput" class="form-control" placeholder="18">
+    </div>
+
+    <div class="mb-3 col-4">
+    <label class="mb-2" for="autoSizingSelect">Stan Cywilny</label>
+        <select class="form-select" id="autoSizingSelect">
+            <option selected value="Panna/Kawaler">Panna/Kawaler</option>
+            <option value="Żonaty/Zamężna">Żonaty/Zamężna</option>
+            <option value="Wdowiec/Wdowa">Wdowiec/Wdowa</option>
+            <option value="Rozwiedziony/Rozwiedziona">Rozwiedziony/Rozwiedziona</option>
+            <option value="Separowany/Separowana">Separowany/Separowana</option>
+        </select>
+    </div>
+</form>
+<button>Wyczyść</button>
+<button>Wyślij</button>
+</div>
+</body>
+</html>
