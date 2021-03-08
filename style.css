@@ -1,8 +1,12 @@
-body {background-color: lightgrey;}
+body {
+    background-color: lightgrey;
+}
+
 .img {
     width: 100px;
     height: auto;
 }
+
 .center {
     display: flex;
     flex-direction: row;
