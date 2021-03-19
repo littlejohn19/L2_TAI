@@ -33,6 +33,12 @@ body {
 ul li {
     display: inline;
 }
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
 .navbar{
     display: inline-flex;
 }
@@ -76,4 +82,8 @@ input[type=submit]:hover {
 
 .contactBtns{
     display: inline;
+}
+
+html{
+    scroll-behavior: smooth;
 }
