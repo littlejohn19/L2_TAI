@@ -33,7 +33,9 @@ body {
 ul li {
     display: inline;
 }
-
+.navbar{
+    display: inline-flex;
+}
 .menutext{
     font-size: 40px;
 }
